@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="order.js" defer></script>
+</head>
+
+<body>
+    <!-- Start Order -->
+    <h2 id="order" class="order">Order Your Waffle</h2>
+    <section id="order">
+
+        <form id="form">
+            <label id="label" for="waffle-type">Choose your waffle type:</label>
+            <select required id="waffle-type" name="waffle-type">
+                <option value="classic">Classic Waffle</option>
+                <option value="chocolate">Chocolate Waffle</option>
+                <option value="fruit">Fruit Waffle</option>
+                <option value="specialty">Specialty Waffle</option>
+            </select>
+            <br><br>
+            <label for="quantity">Quantity:</label>
+            <input required type="number" id="quantity" name="quantity">
+            <div id="error"></div>
+            <br><br>
+            <button type="submit">Place Order</button>
+        </form>
+        <div hidden style="font-size: large; padding: 5px;" id="successful">Successful Submission!</div>
+    </section>
+<p>Your Order will come soon ^^</p>
+    <!-- End order -->
+</body>
+
+<footer>
+    <p>Contact Us On:</p>
+    <ul>
+        <li><a href="https://www.facebook.com/WaffleShop">Facebook</a></li>
+        <li><a href="https://www.instagram.com/WaffleShop">Instagram</a></li>
+        <li><a href="https://www.twitter.com/WaffleShop">Twitter</a></li>
+    </ul>
+    </nav>
+    <p>&copy; 2025 Negm Waffle Shop. All rights reserved.</p>
+</footer>
+
+
+</html>
+
